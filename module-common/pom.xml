@@ -50,12 +50,12 @@
         <dependency>
             <groupId>org.bebas</groupId>
             <artifactId>org-bebas-common</artifactId>
-            <version>${bebas.version}</version>
+            <version>1.0.4-snapshots</version>
         </dependency>
         <dependency>
             <groupId>org.bebas</groupId>
             <artifactId>org-bebas-service</artifactId>
-            <version>${bebas.version}</version>
+            <version>1.0.4-snapshots</version>
             <exclusions>
                 <exclusion>
                     <groupId>com.github.yitter</groupId>
