@@ -91,7 +91,7 @@ public class SparkChatBusinessServiceImpl implements ChatBusinessService<ChatReq
         Function<String, String> getDomain = url -> {
             if (StrUtil.contains(url, "v1.1")) {
                 return "general";
-            } else if (StrUtil.contains(url, "v2.1")) {
+            } else if (StrUtil.contains(url, "v2.1") || StrUtil.contains(url,"v3.5")) {
                 return "generalv2";
             } else if (StrUtil.contains(url, "v3.1")) {
                 return "generalv3";
